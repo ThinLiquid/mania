@@ -1,0 +1,21 @@
+canvas {
+  display: block;
+}
+
+body, html {
+  margin: 0;
+}
+
+bg {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index:-1;
+}
+
+bg video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}
